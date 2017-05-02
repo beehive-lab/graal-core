@@ -69,7 +69,7 @@ public interface Invoke extends StateSplit, Lowerable, DeoptimizingNode.DeoptDur
         if (state == null) {
             state = stateDuring();
         }
-        return state.getMethod();
+        return (state == null) ? null : state.getMethod();
     }
 
     /**
