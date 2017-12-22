@@ -17,7 +17,6 @@
 *.log
 *.cfg
 *.bgv
-*.jar
 *.zip
 *.rej
 *~
